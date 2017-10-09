@@ -1,11 +1,7 @@
+var triangleArea
 var a = 2;
-var b = 4;
+var h = 4;
 
-if ((a * a) - (2 * a * b) + (b * b) < 0)
-	value = Ujemna;
-	
-else if ((a * a) - (2 * a * b) + (b * b) > 0)
-	value = Dodatnia;
-	
-else ((a * a) - (2 * a * b) + (b * b) === 0)
-	value = 0;
+var triangleArea = a*h/2
+
+console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
