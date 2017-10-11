@@ -1,6 +1,11 @@
 var a = 5;
-var h = 2;
-var triangleArea = (a * h / 2);
+var b = 2;
+var value = ((a * a) - (2 * a * b) + (b * b));
 
-
-console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
+if (value < 0) {
+	alert('Ujemne');
+} if else (value > 0) {
+	alert('Dodatnie');
+} else {
+	alert('0');
+}
