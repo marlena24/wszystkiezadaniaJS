@@ -1,11 +1,10 @@
-var a = 2;
-var b = -5;
-var value = ((a * a) - (2 * a * b) + (b * b));
+var femaleNames = ['Asia', 'Kasia', 'Ola', 'Jola'];
+var maleNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'];
 
-if (value < 1) {
-	alert("ujemna");
-} else if (value > 1) {
-	alert("dodatnia");
-} else {
-	alert("0");
+console.log(allNames);
+
+var newName = 'Marian';
+
+if (allNames.indexOf(newName) === -1) {
+	var allNames = test.push('newName');
 }
