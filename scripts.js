@@ -1,11 +1,11 @@
-var a = 5;
-var b = 2;
+var a = 2;
+var b = -5;
 var value = ((a * a) - (2 * a * b) + (b * b));
 
-if (value < 0) {
-	alert('Ujemne');
-} if else (value > 0) {
-	alert('Dodatnie');
+if (value < 1) {
+	alert("ujemna");
+} else if (value > 1) {
+	alert("dodatnia");
 } else {
-	alert('0');
+	alert("0");
 }
